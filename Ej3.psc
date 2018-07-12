@@ -2,12 +2,12 @@ Algoritmo ejercicio3
 	Escribir "Deseas probar si un numero es primo o no?"
 	Escribir "Ingresa el numero que quieres evaluar"
 	Leer num
-	contador<-num-1
+	denominador<-num-1
 	bool<-Verdadero
-	Mientras bool==Verdadero y contador<>1 Hacer
-		Si num%contador<>0 Entonces
+	Mientras bool==Verdadero y denominador<>1 Hacer
+		Si num%denominador<>0 Entonces
 			bool<-Verdadero
-			contador<-contador-1
+			denominador<-denominador-1
 		SiNo
 			bool<-Falso
 		Fin Si
